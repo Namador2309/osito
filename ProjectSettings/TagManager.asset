@@ -11,7 +11,7 @@ TagManager:
   - suelo
   - Water
   - UI
-  - 
+  - fondo
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: fondo
+    uniqueID: 3501102801
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
