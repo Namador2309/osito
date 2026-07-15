@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; // <-- ¡AÑADIDO PARA LA BARRA DE VIDA!
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class PlayerController : MonoBehaviour
     public float fuerzaRebote = 5f;
     public float parpadeoIntervalo = 0.1f;    // opcional: parpadeo visual al recibir danio
 
+    [Header("UI Referencia")]
+    public Slider barraDeVida; 
+
     private Rigidbody2D rigidBody;
     public Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -26,6 +30,9 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private bool recibiendoDanio;
     private bool invencible;
+
+    [Header("UI Game Over")]
+    public GameObject panelGameOver; 
 
     void Start()
     {
@@ -35,6 +42,8 @@ public class PlayerController : MonoBehaviour
 
         vidaActual = vidaMaxima;
         rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
+
+        ActualizarBarraDeVida(); // <-- ¡AÑADIDO! Inicializa la barra al 100%
     }
 
     void Update()
@@ -95,6 +104,8 @@ public class PlayerController : MonoBehaviour
         if (invencible) return;
 
         vidaActual -= cantDanio;
+        ActualizarBarraDeVida(); // <-- ¡AÑADIDO! Actualiza visualmente el Slider al recibir daño
+
         recibiendoDanio = true;
         invencible = true;
 
@@ -112,6 +123,16 @@ public class PlayerController : MonoBehaviour
         {
             StopAllCoroutines();
             StartCoroutine(RecuperacionDanio());
+        }
+    }
+
+    // <-- ¡MÉTODO NUEVO NUEVO! Controla el valor de la barra de vida
+    void ActualizarBarraDeVida()
+    {
+        if (barraDeVida != null)
+        {
+            // Dividimos float para obtener el porcentaje exacto entre 0 y 1
+            barraDeVida.value = (float)vidaActual / vidaMaxima;
         }
     }
 
@@ -150,6 +171,11 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("recibedanio", false);
         animator.SetBool("isGrounded", true); // evitar que se quede en el estado de salto si muere en el aire
         animator.SetTrigger("morir");
+
+        if (panelGameOver != null)
+        {
+            panelGameOver.SetActive(true);
+        }
         this.enabled = false;
 
         //probablemente agregar la pantalla de Game Over o reiniciar el nivel acá
