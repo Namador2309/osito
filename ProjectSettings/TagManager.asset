@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemigo
   layers:
   - Default
   - TransparentFX
@@ -46,4 +47,19 @@ TagManager:
     locked: 0
   - name: fondo
     uniqueID: 3501102801
+    locked: 0
+  - name: 1sky
+    uniqueID: 916059771
+    locked: 0
+  - name: 2cloud
+    uniqueID: 3514704421
+    locked: 0
+  - name: 3background
+    uniqueID: 1078769953
+    locked: 0
+  - name: 4foreground
+    uniqueID: 477297977
+    locked: 0
+  - name: player
+    uniqueID: 1251184511
     locked: 0

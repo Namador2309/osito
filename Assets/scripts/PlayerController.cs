@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI; // <-- ¡AÑADIDO PARA LA BARRA DE VIDA!
 
@@ -21,8 +22,6 @@ public class PlayerController : MonoBehaviour
     public float parpadeoIntervalo = 0.1f;    // opcional: parpadeo visual al recibir danio
 
     [Header("UI Referencia")]
-    public Slider barraDeVida; 
-
     private Rigidbody2D rigidBody;
     public Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -32,8 +31,9 @@ public class PlayerController : MonoBehaviour
     private bool invencible;
 
     [Header("UI Game Over")]
-    public GameObject panelGameOver; 
+    public GameObject panelGameOver;
 
+ 
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
@@ -60,6 +60,7 @@ public class PlayerController : MonoBehaviour
 
         animator.SetBool("isGrounded", isGrounded);
         animator.SetBool("recibedanio", recibiendoDanio);
+
     }
 
     void ProcesarMovimiento()
@@ -126,13 +127,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // <-- ¡MÉTODO NUEVO NUEVO! Controla el valor de la barra de vida
+    //  Cambio para que la barra de vida sean los corazones/ositos
+    [Header("UI Vida - Corazones")]
+    public GameObject[] corazonesLlenos; // arrastra aquí SOLO las imágenes de corazón lleno, en orden
+
     void ActualizarBarraDeVida()
     {
-        if (barraDeVida != null)
+        for (int i = 0; i < corazonesLlenos.Length; i++)
         {
-            // Dividimos float para obtener el porcentaje exacto entre 0 y 1
-            barraDeVida.value = (float)vidaActual / vidaMaxima;
+            // Si el índice del corazón es menor que la vida actual, se muestra. Si no, se oculta.
+            corazonesLlenos[i].SetActive(i < vidaActual);
         }
     }
 
@@ -179,5 +183,7 @@ public class PlayerController : MonoBehaviour
         this.enabled = false;
 
         //probablemente agregar la pantalla de Game Over o reiniciar el nivel acá
+
+
     }
 }
