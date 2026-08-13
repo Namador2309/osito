@@ -9,11 +9,13 @@ public class DisparoJugador : MonoBehaviour
   [SerializeField] private Transform puntoDisparo;
   [SerializeField] private GameObject balaPrefab;
   [SerializeField] private Animator animator;
-   private SpriteRenderer spriteRenderer;
+    [SerializeField] public AudioClip disparoSound;
+    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+     
     }
 
 
@@ -26,6 +28,7 @@ public class DisparoJugador : MonoBehaviour
             Disparar();
         }
         animator.SetBool("Disparando", Input.GetButton("Fire1"));
+        
 
     }
 
@@ -33,10 +36,10 @@ public class DisparoJugador : MonoBehaviour
         private void Disparar()
 {
 
-    if (balaPrefab != null && puntoDisparo != null)
+    if (disparoSound != null && balaPrefab != null && puntoDisparo != null)
     {
         Instantiate(balaPrefab, puntoDisparo.position, puntoDisparo.rotation);
-            
+        AudioSource.PlayClipAtPoint(disparoSound, puntoDisparo.position);
     }
 }
    

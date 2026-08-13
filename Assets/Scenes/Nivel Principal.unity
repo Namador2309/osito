@@ -331,7 +331,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 171
+  Priority: 73
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -2175,6 +2175,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1760550450899382824, guid: c3dcf0fa6aec95a49ac791f99a66b5be, type: 3}
   m_PrefabInstance: {fileID: 79994678853006702}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &994762868 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3956799918752881595, guid: c3dcf0fa6aec95a49ac791f99a66b5be, type: 3}
+  m_PrefabInstance: {fileID: 79994678853006702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &994762873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994762865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205bad044ba3f8148b0fc30d112ec1db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntoDisparo: {fileID: 994762867}
+  balaPrefab: {fileID: 6969922934385515100, guid: 7021945a1554b1f4c93bd66ae26960ea, type: 3}
+  animator: {fileID: 994762868}
+  disparoSound: {fileID: 8300000, guid: db4d6f4d0491fdf4ead270b5b5abee3b, type: 3}
 --- !u!4 &1048131620 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8649749301916519046, guid: eb68514805087ef44aa5c37235972bd2, type: 3}
@@ -2513,7 +2534,7 @@ Transform:
   m_GameObject: {fileID: 1594397414}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.08669662, z: -0, w: 0.9962348}
-  m_LocalPosition: {x: -28.01293, y: 0.52, z: 88.602715}
+  m_LocalPosition: {x: -28.006554, y: 0.52, z: 88.60159}
   m_LocalScale: {x: 0.44106868, y: 0.525, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3197,7 +3218,7 @@ Transform:
   m_GameObject: {fileID: 2068968724}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.08669662, z: 0, w: 0.9962348}
-  m_LocalPosition: {x: -28.01293, y: 0.52, z: 88.602715}
+  m_LocalPosition: {x: -28.006554, y: 0.52, z: 88.60159}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3417,7 +3438,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2897893530603618096, guid: c3dcf0fa6aec95a49ac791f99a66b5be, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 994762873}
   m_SourcePrefab: {fileID: 100100000, guid: c3dcf0fa6aec95a49ac791f99a66b5be, type: 3}
 --- !u!1001 &3634273914369364110
 PrefabInstance:
