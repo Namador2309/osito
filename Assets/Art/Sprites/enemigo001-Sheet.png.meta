@@ -1,0 +1,582 @@
+fileFormatVersion: 2
+guid: 8c89bb59bcde92944a269528d0580681
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemigo001-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 126
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0aeb2e2510cca45bddc5a7824c5ac2
+      internalID: 114198250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 129
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcc283c52e00ce4baca0ce999ee46e8
+      internalID: 495018847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 125
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8bea0846d29c34cb9518cb561e0413
+      internalID: -1922979781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 0
+        width: 127
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647263a5bb7fdc04fa1a319664f8a065
+      internalID: 1516081984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 0
+        width: 129
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e2b079fbc9a6149a36b9d9cf56d639
+      internalID: 731435217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 0
+        width: 127
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3283a2c7a5e00d4a80520e7fcc59fdb
+      internalID: 2033291769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 0
+        width: 129
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd63ebcbd082afc448811249a90b278e
+      internalID: 2028783546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 0
+        width: 112
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204b83a66630798449e47e400ef4e35a
+      internalID: -786419944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1
+        width: 170
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0266d7e6a88c79243aa864e7dddf2062
+      internalID: -2113696816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 0
+        width: 193
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b5dc4a25ea9cb46a0a920b0c1140fb
+      internalID: -1386653474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 0
+        width: 182
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689c6ace685148d4ea39db1f319661b6
+      internalID: -1101941411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 0
+        width: 199
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48d9dd512792804e80dc300e55e09f8
+      internalID: 113524912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 0
+        width: 182
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4415ed4037b834eb0c18006f9d1c2a
+      internalID: -775610876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 190
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a72414a88ce974f8bd2589282d055c
+      internalID: 1658768417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 191
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306e62bf0d2f1ef47b99c17c3a5a34cf
+      internalID: 923234223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 0
+        width: 182
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f324a944ed8f369419be1d4ad6c8f15c
+      internalID: 1342318293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 0
+        width: 127
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7000601b5d21f41a4ce5d20a20035c
+      internalID: 2041992226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 1
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20104853e3d667447bbf97bf35e4af5c
+      internalID: 1237239508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo001-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 186
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17fc5cfdb9db9c4d9ad338bd4ace3a7
+      internalID: -1266648387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemigo001-Sheet_0: 114198250
+      enemigo001-Sheet_1: 495018847
+      enemigo001-Sheet_10: -1386653474
+      enemigo001-Sheet_11: -1101941411
+      enemigo001-Sheet_12: 113524912
+      enemigo001-Sheet_13: -775610876
+      enemigo001-Sheet_14: 1658768417
+      enemigo001-Sheet_15: 923234223
+      enemigo001-Sheet_16: -1266648387
+      enemigo001-Sheet_17: -2006225958
+      enemigo001-Sheet_18: -342521963
+      enemigo001-Sheet_19: 1497750262
+      enemigo001-Sheet_2: -1922979781
+      enemigo001-Sheet_20: -246708332
+      enemigo001-Sheet_21: 1499018599
+      enemigo001-Sheet_22: 1489154234
+      enemigo001-Sheet_23: 696391469
+      enemigo001-Sheet_24: 1191301483
+      enemigo001-Sheet_25: 1842382482
+      enemigo001-Sheet_26: 1686829636
+      enemigo001-Sheet_27: 311313126
+      enemigo001-Sheet_28: 2095162343
+      enemigo001-Sheet_29: 1986709103
+      enemigo001-Sheet_3: 1516081984
+      enemigo001-Sheet_30: 2041992226
+      enemigo001-Sheet_31: -135833500
+      enemigo001-Sheet_32: -1682944572
+      enemigo001-Sheet_33: -693268905
+      enemigo001-Sheet_34: -231553812
+      enemigo001-Sheet_35: 527788793
+      enemigo001-Sheet_36: -810554918
+      enemigo001-Sheet_37: 702366393
+      enemigo001-Sheet_38: 2053379115
+      enemigo001-Sheet_39: -1563316832
+      enemigo001-Sheet_4: 731435217
+      enemigo001-Sheet_40: -726298022
+      enemigo001-Sheet_41: 1237239508
+      enemigo001-Sheet_42: 41259806
+      enemigo001-Sheet_5: 2033291769
+      enemigo001-Sheet_6: 2028783546
+      enemigo001-Sheet_7: -786419944
+      enemigo001-Sheet_8: -2113696816
+      enemigo001-Sheet_9: 1342318293
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
