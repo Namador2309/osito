@@ -7,10 +7,16 @@ public class Bala : MonoBehaviour
     [SerializeField] private float velocidad;
     [SerializeField] private float daño;
 
+    private Vector2 direccion = Vector2.right;
+
+    public void Inicializar(Vector2 nuevaDireccion)
+    {
+        direccion = nuevaDireccion.normalized;
+    }
+
     private void Update()
     {
-        transform.Translate(Vector2.right * velocidad * Time.deltaTime);
-        
+        transform.Translate(direccion * velocidad * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -18,12 +24,13 @@ public class Bala : MonoBehaviour
         if (collision.CompareTag("Enemigo"))
         {
             EnemyController enemigo = collision.GetComponent<EnemyController>();
+
             if (enemigo != null)
             {
                 enemigo.RecibirDaño(daño);
             }
+
             Destroy(gameObject);
         }
     }
-
 }

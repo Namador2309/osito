@@ -3,21 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DisparoJugador : MonoBehaviour
-{ 
+{
+    [Header("Disparo jugador")]
+    [SerializeField] private Transform puntoDisparo;
+    [SerializeField] private GameObject balaPrefab;
+    [SerializeField] private Animator animator;
 
-  [Header("Disparo jugador")]
-  [SerializeField] private Transform puntoDisparo;
-  [SerializeField] private GameObject balaPrefab;
-  [SerializeField] private Animator animator;
-    [SerializeField] public AudioClip disparoSound;
-    private SpriteRenderer spriteRenderer;
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip sonidoLaser;
 
-    void Start()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-     
-    }
-
+    [Header("Referencia del jugador")]
+    [SerializeField] private Transform jugador;
 
     // Update is called once per frame
     void Update()
@@ -27,22 +24,41 @@ public class DisparoJugador : MonoBehaviour
         {
             Disparar();
         }
+
         animator.SetBool("Disparando", Input.GetButton("Fire1"));
         
 
     }
 
-        //DISPARO DEL JUGADOR
-        private void Disparar()
-{
-
-    if (disparoSound != null && balaPrefab != null && puntoDisparo != null)
+    private void Disparar()
     {
-        Instantiate(balaPrefab, puntoDisparo.position, puntoDisparo.rotation);
-        AudioSource.PlayClipAtPoint(disparoSound, puntoDisparo.position);
-    }
-}
-   
-        
+        if (balaPrefab == null || puntoDisparo == null || jugador == null)
+            return;
 
+        // Sonido del láser
+        if (audioSource != null && sonidoLaser != null)
+        {
+            audioSource.PlayOneShot(sonidoLaser);
+        }
+
+        GameObject nuevaBala = Instantiate(
+            balaPrefab,
+            puntoDisparo.position,
+            Quaternion.identity
+        );
+
+        Bala bala = nuevaBala.GetComponent<Bala>();
+
+        if (bala != null)
+        {
+            if (jugador.localScale.x > 0)
+            {
+                bala.Inicializar(Vector2.right);
+            }
+            else
+            {
+                bala.Inicializar(Vector2.left);
+            }
+        }
+    }
 }
