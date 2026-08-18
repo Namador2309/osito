@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NivelGrecia.unity
     guid: a707ae85f5cdacf4e88b3dca8fa99fc5
+  - enabled: 1
+    path: Assets/Scenes/NivelCueva.unity
+    guid: da2e31018b6be5b4ea642a82de1a9fc0
   m_configObjects: {}

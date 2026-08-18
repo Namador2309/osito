@@ -192,7 +192,6 @@ GameObject:
   - component: {fileID: 4576183703481378347}
   - component: {fileID: 8802563616658173373}
   - component: {fileID: 1906774614048818483}
-  - component: {fileID: 931718270604093745}
   m_Layer: 0
   m_Name: osito
   m_TagString: Player
@@ -391,21 +390,3 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
---- !u!114 &931718270604093745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2897893530603618096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205bad044ba3f8148b0fc30d112ec1db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puntoDisparo: {fileID: 6582981039857400098}
-  balaPrefab: {fileID: 6969922934385515100, guid: 7021945a1554b1f4c93bd66ae26960ea, type: 3}
-  animator: {fileID: 0}
-  audioSource: {fileID: 0}
-  sonidoLaser: {fileID: 0}
-  jugador: {fileID: 0}
