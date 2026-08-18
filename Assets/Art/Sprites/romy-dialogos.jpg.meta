@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c15307dd618a58d48869cf9c876ec04a
+guid: 36ed53167ae078d44a49165aa2dca1e2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ciclope 1_0
+      name: romy-dialogos_0
       rect:
         serializedVersion: 2
-        x: 204
-        y: 6
-        width: 620
-        height: 1037
+        x: 0
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 775316a5ba90fb94b95b829cdb0a2af7
-      internalID: -768766014
+      spriteID: cfd4a1a1ea02a3f428b003e165854911
+      internalID: -1405431986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ciclope 1_1
+      name: romy-dialogos_1
       rect:
         serializedVersion: 2
-        x: 1183
-        y: 6
-        width: 625
-        height: 1056
+        x: 800
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c3daa703a547e64ab9fd7202d9697bd
-      internalID: -1657053404
+      spriteID: 261292525c7183748a3494ab3cdcb0a0
+      internalID: -378403556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ciclope 1_2
+      name: romy-dialogos_2
       rect:
         serializedVersion: 2
-        x: 2173
-        y: 6
-        width: 632
-        height: 1032
+        x: 1600
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c498b41b329a5f3408dfe2248dd60d3c
-      internalID: -245082609
+      spriteID: 2093c820f42f9f14ebdebcb9fb714aeb
+      internalID: 1500582812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ciclope 1_3
+      name: romy-dialogos_3
       rect:
         serializedVersion: 2
-        x: 3158
-        y: 6
-        width: 632
-        height: 1032
+        x: 2400
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80762b09e045e234cbc6c3a907043074
-      internalID: 908674842
+      spriteID: ef7f4b31a8338094287a4272f6c59edf
+      internalID: -343861623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ciclope 1_4
+      name: romy-dialogos_4
       rect:
         serializedVersion: 2
-        x: 4142
-        y: 6
-        width: 620
-        height: 1032
+        x: 3200
+        y: 0
+        width: 800
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +221,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b70880855f5a848b642ce7a0b5c59a
-      internalID: -1167796531
+      spriteID: 342a5a7118adbe040ab34f068a6a7af3
+      internalID: 1411558558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romy-dialogos_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c10482343274a9459d1a54ce1d64ac0
+      internalID: 679045433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romy-dialogos_6
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94007f333d979f4b9db4b5ba2507943
+      internalID: -693090860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romy-dialogos_7
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab3bfd1b9adcd643b94854eeb89b7ac
+      internalID: 1692549860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romy-dialogos_8
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdb66aed8f2c0149b70ace407e3d70e
+      internalID: -2121178102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romy-dialogos_9
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12cd884cd2715f4c9e235f7158e41ff
+      internalID: -660236754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romy-dialogos_10
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 0
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca59b6a6ddbc3934b9446348fc0c1e6d
+      internalID: -1220036687
       vertices: []
       indices: 
       edges: []
@@ -238,11 +364,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ciclope 1_0: -768766014
-      ciclope 1_1: -1657053404
-      ciclope 1_2: -245082609
-      ciclope 1_3: 908674842
-      ciclope 1_4: -1167796531
+      romy-dialogos_0: -1405431986
+      romy-dialogos_1: -378403556
+      romy-dialogos_10: -1220036687
+      romy-dialogos_2: 1500582812
+      romy-dialogos_3: -343861623
+      romy-dialogos_4: 1411558558
+      romy-dialogos_5: 679045433
+      romy-dialogos_6: -693090860
+      romy-dialogos_7: 1692549860
+      romy-dialogos_8: -2121178102
+      romy-dialogos_9: -660236754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
