@@ -24,8 +24,13 @@ public class Bala : MonoBehaviour
         if (collision.CompareTag("Enemigo"))
         {
             EnemyController enemigo = collision.GetComponent<EnemyController>();
+            BossController jefe = collision.GetComponent<BossController>();
 
-            if (enemigo != null)
+            if (jefe != null)
+            {
+                jefe.RecibirDanio(daño);
+            }
+            else if (enemigo != null)
             {
                 enemigo.RecibirDaño(daño);
             }
